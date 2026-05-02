@@ -6,6 +6,16 @@ import { View, Text, Image, StyleSheet, SafeAreaView } from 'react-native';
  * Date: April 29, 2026
  */
 
+
+
+const myUser = "Samantha";
+const sayHello = (friendName) => {
+  return `Hi ${friendName}, nice to meet you! ✨`;
+};
+const myClassmates = ["Earl", "Jake", "Mia", "Luffy", "Zoro"];
+
+console.log("Assignment Output:");
+console.log(myClassmates.map(name => sayHello(name)));
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
